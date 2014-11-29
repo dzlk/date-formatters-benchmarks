@@ -30,11 +30,11 @@ suite('dateformat@1.0.11', function() {
     formatter('dd.mm');
   });
 
-  bench('dd MMMM YYYY', function() {
+  bench('dd mmmm yyyy', function() {
     formatter('dd mmmm yyyy');
   });
 
-  bench('dd.MM.YY', function() {
+  bench('dd.mm.yy', function() {
     formatter('dd.mm.yy');
   });
 
