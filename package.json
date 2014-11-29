@@ -1,0 +1,28 @@
+{
+  "name": "date-formatters-benchmarks",
+  "version": "0.0.1",
+  "description": "benchmarks",
+  "main": "benchmark/split.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bench": "matcha benchmark/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dzlk/date-formatters-benchmarks.git"
+  },
+  "keywords": [
+    "bench"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzlk/date-formatters-benchmarks/issues"
+  },
+  "homepage": "https://github.com/dzlk/date-formatters-benchmarks",
+  "dependencies": {
+    "matcha": "^0.6.0",
+    "datef": "0.0.5",
+    "dateformat": "1.0.11"
+  }
+}
