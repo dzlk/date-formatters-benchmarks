@@ -2,13 +2,13 @@ Benchmarks for date formatters
 ==============================
 
 Run benchmarks:
-```javascript
+```bash
 npm i
 npm run bench
 ```
 
 The result will be like this:
-```
+```bash
               datef@0.0.5
  505,647 op/s » dd.MM
  310,644 op/s » dd MMMM YYYY
